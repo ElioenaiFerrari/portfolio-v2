@@ -8,10 +8,13 @@ module.exports = {
     colors: {
       ...colors,
       primary: {
-        DEFAULT: '#7868e6',
+        DEFAULT: '#e84545',
       },
       secondary: {
         DEFAULT: '#e9896a',
+      },
+      background: {
+        DEFAULT: '#24292e',
       },
     },
     fontFamily: {
