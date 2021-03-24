@@ -13,22 +13,7 @@ export default function Layout({ title, children }) {
         />
       </Head>
 
-      <HeroSection
-        logoSrc='/images/rocket.gif'
-        title={['Quality work at a ', 'fair price']}
-        description='I am a fullstack software engineer, and I love technology. I
-        hope you love my work :D'
-        imageSrc='/images/astronaut.gif'
-        topics={[
-          { name: 'Jobs', path: '/jobs' },
-          { name: 'About me', path: '/about-me' },
-          { name: 'Contact', path: '/contact' },
-        ]}
-      />
-
-      <div className='grid grid-cols-1 md:grid-cols-6 md:gap-2 p-4'>
-        {children}
-      </div>
+      <div className='bg-background'>{children}</div>
     </>
   );
 }
